@@ -25,7 +25,7 @@ namespace jarmuPark
             trabant.Megy(h);
             trabant.Allapot();
 
-
+            Console.WriteLine("Az autó kilométer óra állása: {0}",lada.KM);
             Console.ReadKey();
         }
     }
